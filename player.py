@@ -1,5 +1,7 @@
 from pygame import*
 from projectile import Ink
+from sanae import Sanae
+
 
 class Player(sprite.Sprite):
     def __init__(self, game):
