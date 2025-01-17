@@ -8,4 +8,5 @@ class Sanae(sprite.Sprite):
         self.attack = 10
         self.image = image.load("ProjetIkaMusume/assets/sanae1.png")
         self.rect = self.image.get_rect()
-        
+
+MangaPark
