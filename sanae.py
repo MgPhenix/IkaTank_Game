@@ -10,3 +10,4 @@ class Sanae(sprite.Sprite):
         self.rect = self.image.get_rect()
 
 MangaPark
+I admire magical girl...
