@@ -41,4 +41,4 @@ while run:
             if button_rect.collidepoint(evenement.pos):
                 game.start()
 
-
+quit()
