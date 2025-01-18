@@ -24,5 +24,10 @@ class Ink(sprite.Sprite):
     def move(self):
         self.rect.x += self.speed
         self.rotate()
+
+        for sanae in self.player.game.check_collision(self, self.player.game.all_sanae):
+            self.remove()
+            sanae.damage(self.player.attack)
+
         if self.rect.x > 1280:
             self.remove()
