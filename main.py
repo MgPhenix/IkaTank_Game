@@ -1,5 +1,9 @@
 from pygame import* 
-from game import Game
+if __name__ == '__main__':
+    from game import Game 
+else:
+    from ProjetIkaMusume.game import Game
+    
 
 init()
 display.set_caption("Ika Musume Game Degeso")
